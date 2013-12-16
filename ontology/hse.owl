@@ -1,0 +1,555 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+    <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
+    <!ENTITY hse "https://github.com/blacktiago/HSE/ontology/hse.owl#" >
+]>
+
+
+<rdf:RDF xmlns="https://github.com/blacktiago/HSE/ontology/hse.owl#"
+     xml:base="https://github.com/blacktiago/HSE/ontology/hse.owl"
+     xmlns:hse="https://github.com/blacktiago/HSE/ontology/hse.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl">
+        <rdfs:comment rdf:datatype="&xsd;string">Emotions of human stres HSE is a project to create an ontology that contains images of human faces obtained from youtube videos or image files to generate agents or applications that can react basing on an emotion and context</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="&rdfs;label">
+        <rdfs:domain rdf:resource="&hse;humanEmotion"/>
+        <rdfs:domain rdf:resource="&hse;object"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="&xsd;time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#belongs_to -->
+
+    <owl:ObjectProperty rdf:about="&hse;belongs_to">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+        <rdfs:range rdf:resource="&hse;context"/>
+        <rdfs:domain rdf:resource="&hse;object"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#cc_at -->
+
+    <owl:ObjectProperty rdf:about="&hse;cc_at">
+        <rdfs:range rdf:resource="&hse;caption"/>
+        <rdfs:domain rdf:resource="&hse;video"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#has_a -->
+
+    <owl:ObjectProperty rdf:about="&hse;has_a">
+        <rdfs:range rdf:resource="&hse;frame"/>
+        <rdfs:domain rdf:resource="&hse;video"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#registered_by -->
+
+    <owl:ObjectProperty rdf:about="&hse;registered_by">
+        <rdfs:range rdf:resource="&foaf;Agent"/>
+        <rdfs:domain rdf:resource="&hse;humanEmotion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#show_a -->
+
+    <owl:ObjectProperty rdf:about="&hse;show_a">
+        <rdfs:range rdf:resource="&foaf;Person"/>
+        <rdfs:domain rdf:resource="&hse;frame"/>
+        <rdfs:domain rdf:resource="&hse;image"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#shows -->
+
+    <owl:ObjectProperty rdf:about="&hse;shows">
+        <rdfs:domain rdf:resource="&foaf;Person"/>
+        <rdfs:range rdf:resource="&hse;humanEmotion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:DatatypeProperty rdf:about="&rdfs;label">
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#cc_at -->
+
+    <owl:DatatypeProperty rdf:about="&hse;cc_at">
+        <rdfs:range rdf:resource="&xsd;time"/>
+        <rdfs:domain rdf:resource="&hse;caption"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#cc_at_seconds -->
+
+    <owl:DatatypeProperty rdf:about="&hse;cc_at_seconds">
+        <rdfs:range rdf:resource="&xsd;double"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+        <rdfs:domain rdf:resource="&hse;caption"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#cc_text -->
+
+    <owl:DatatypeProperty rdf:about="&hse;cc_text">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="&hse;caption"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#description -->
+
+    <owl:DatatypeProperty rdf:about="&hse;description">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="&hse;humanEmotion"/>
+        <rdfs:domain rdf:resource="&hse;image"/>
+        <rdfs:domain rdf:resource="&hse;object"/>
+        <rdfs:domain rdf:resource="&hse;video"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#frame_at -->
+
+    <owl:DatatypeProperty rdf:about="&hse;frame_at">
+        <rdfs:range rdf:resource="&xsd;time"/>
+        <rdfs:domain rdf:resource="&hse;frame"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#url -->
+
+    <owl:DatatypeProperty rdf:about="&hse;url">
+        <rdfs:range rdf:resource="&xsd;anyURI"/>
+        <rdfs:domain rdf:resource="&hse;image"/>
+        <rdfs:domain rdf:resource="&hse;video"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="&foaf;Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="&foaf;Person">
+        <rdfs:subClassOf rdf:resource="&foaf;Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#fury -->
+
+    <owl:Class rdf:about="&hse;fury">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#anger -->
+
+    <owl:Class rdf:about="&hse;anger">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#anxiety -->
+
+    <owl:Class rdf:about="&hse;anxiety">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#bitterness -->
+
+    <owl:Class rdf:about="&hse;bitterness">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#caption -->
+
+    <owl:Class rdf:about="&hse;caption"/>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#cheeky -->
+
+    <owl:Class rdf:about="&hse;cheeky">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#compassion -->
+
+    <owl:Class rdf:about="&hse;compassion">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#concern -->
+
+    <owl:Class rdf:about="&hse;concern">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#confusion -->
+
+    <owl:Class rdf:about="&hse;confusion">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#contempt -->
+
+    <owl:Class rdf:about="&hse;contempt">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#context -->
+
+    <owl:Class rdf:about="&hse;context"/>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#despair -->
+
+    <owl:Class rdf:about="&hse;despair">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#embarrassed -->
+
+    <owl:Class rdf:about="&hse;embarrassed">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#euphoria -->
+
+    <owl:Class rdf:about="&hse;euphoria">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#exitation -->
+
+    <owl:Class rdf:about="&hse;exitation">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#fear -->
+
+    <owl:Class rdf:about="&hse;fear">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#frame -->
+
+    <owl:Class rdf:about="&hse;frame">
+        <rdfs:subClassOf rdf:resource="&hse;image"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#frustrated -->
+
+    <owl:Class rdf:about="&hse;frustrated">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#happiness -->
+
+    <owl:Class rdf:about="&hse;happiness">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#hate -->
+
+    <owl:Class rdf:about="&hse;hate">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion -->
+
+    <owl:Class rdf:about="&hse;humanEmotion"/>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#image -->
+
+    <owl:Class rdf:about="&hse;image">
+        <rdfs:subClassOf rdf:resource="&hse;mediaResource"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#joy -->
+
+    <owl:Class rdf:about="&hse;joy">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#lie -->
+
+    <owl:Class rdf:about="&hse;lie">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#loathing -->
+
+    <owl:Class rdf:about="&hse;loathing">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#mediaResource -->
+
+    <owl:Class rdf:about="&hse;mediaResource"/>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#nervous -->
+
+    <owl:Class rdf:about="&hse;nervous">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#object -->
+
+    <owl:Class rdf:about="&hse;object"/>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#resetment -->
+
+    <owl:Class rdf:about="&hse;resetment">
+        <rdfs:subClassOf rdf:resource="&hse;stressEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#restless -->
+
+    <owl:Class rdf:about="&hse;restless">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#sadness -->
+
+    <owl:Class rdf:about="&hse;sadness">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#shy -->
+
+    <owl:Class rdf:about="&hse;shy">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion -->
+
+    <owl:Class rdf:about="&hse;stressEmotion">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#surprised -->
+
+    <owl:Class rdf:about="&hse;surprised">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#thoughtful -->
+
+    <owl:Class rdf:about="&hse;thoughtful">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#tired -->
+
+    <owl:Class rdf:about="&hse;tired">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#tranquility -->
+
+    <owl:Class rdf:about="&hse;tranquility">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#unconformity -->
+
+    <owl:Class rdf:about="&hse;unconformity">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#video -->
+
+    <owl:Class rdf:about="&hse;video">
+        <rdfs:subClassOf rdf:resource="&hse;mediaResource"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/blacktiago/HSE/ontology/hse.owl#wrath -->
+
+    <owl:Class rdf:about="&hse;wrath">
+        <rdfs:subClassOf rdf:resource="&hse;humanEmotion"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
