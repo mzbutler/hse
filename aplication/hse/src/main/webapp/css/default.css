@@ -1,0 +1,229 @@
+body { 
+    margin: 0px;
+    padding: 0px;
+    color: #4f4f4f;
+    background-color: #f9f9f9;
+    font-family: 'arial';
+
+}
+a{
+    text-decoration: none;
+}
+
+header
+{
+    background: #22242b;
+    background: -webkit-linear-gradient(rgb(96,119,138),black);
+    background: -moz-linear-gradient(rgb(96,119,138),black);
+    background: -o-linear-gradient(rgb(96,119,138),black);  
+    text-align: right;    
+    padding: 0px;
+    margin: 0px;
+    margin-top: -2px;
+    width: 100%;
+}
+h1
+{
+    color: #D1D1D1; 
+    font-size: 1.5em;
+    font-family: 'arial';
+    margin: 2px;
+    vertical-align: top;
+    text-align: left;
+    padding: 0.5em;
+}
+h2
+{
+    color: #4f4f4f; 
+    font-size: 1em;
+    font-family: 'arial';
+    margin: 2px;
+    vertical-align: top;
+    text-align: left;
+}
+h3
+{
+    color: #4f4f4f; 
+    font-size: 0.8em;
+    font-family: 'arial';
+    text-align: left;
+    display: inline-block;
+    min-width: 4em;
+}
+
+h4
+{
+    color: #4f4f4f; 
+    font-size: 0.8em;
+    font-family: 'arial';
+    text-align: center;
+    min-width: 4em;
+}
+.blackButton{
+    padding: 0.5em 1em 0.5em 1em;
+    color: #FFFFFF;
+    background-color: #353535;
+    border-radius: 0.5em;
+    border: white 1px solid;
+    font-size: 0.8em;
+    text-decoration: none;
+    margin: 0.25em;
+}
+.blackButton:hover{
+    cursor: pointer;
+    background: #727272;    
+}
+.litleBlackButton{
+    color: #FFFFFF;
+    background-color: #353535;
+    border-radius: 0.2em;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.1em;
+    padding: 0.2em 0.3em;
+}
+
+.imgCommand{
+    width: 1em; 
+    margin-left:0.5em; 
+    padding: 0px;
+}
+.imgCommand:hover{
+    width: 1.2em; 
+}
+.inRowsElement{
+    display: inline-block;
+    width: 90%;
+}
+#infoBox{
+    position: fixed;
+    width: 100%;
+    color: #4f4f4f;
+    /*font-size: 0.8em;
+    font-family: 'arial';*/
+    text-align: center;
+    height: 100%;
+    padding-top: 15%;
+    background:rgba(0,0,0,0.5);
+    margin: 0 0 0 0;
+}
+
+
+#newBox{
+    position: fixed;
+    width: 100%;
+    color: #4f4f4f;
+    /*font-size: 0.8em;
+    font-family: 'arial';*/
+    text-align: center;
+    height: 100%;
+    padding-top: 20%;
+    background:rgba(0,0,0,0.5);
+    margin: 0 0 0 0;
+}
+
+#wokspace{
+    min-height: 25em;
+    margin-top: 1em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+#resultPanel{
+    width: 58%;
+    text-align: left;
+}
+#foother{
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    bottom: 0px;
+    position: fixed
+}
+#editor{
+    text-align: center;
+}
+
+
+#searcher{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+.panel{
+    border: 1px solid #babac1;
+    border-radius: 1em;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.8em;
+    background-color: #ffffff;
+    margin: 0.1em;
+}
+.columResult{
+    display: inline-block;
+    width: 16%;
+    border-left: 1px solid white;
+    min-height: 2.1em;
+    text-align: center;
+
+}
+.columResultCC{
+    display: inline-block;
+    width: 83%;
+    border-left: 1px solid white;
+    min-height: 2.1em;
+    text-align: left;
+
+}
+
+.columResultAP{
+    display: inline-block;
+    width: 19%;
+    border-left: 1px solid white;
+    min-height: 2.1em;
+    text-align: center;
+    
+
+}
+
+.columResultT{
+    display: inline-block;
+    width: 19%;
+    border-left: 1px solid white;
+    min-height: 2.1em;
+    text-align: center;
+    margin-right: -4px;
+
+}
+
+.headerResult{
+    background: #22242b;
+    background: -webkit-linear-gradient(rgb(96,119,138),black);
+    background: -moz-linear-gradient(rgb(96,119,138),black);
+    background: -o-linear-gradient(rgb(96,119,138),black);  
+}
+
+.headerResult h4{
+    color: #D1D1D1;
+}
+.rowResultA{
+    background-color: #DADEFF;
+}
+.rowResultA:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.rowResultB{
+    background-color: #eaecff;
+
+}
+
+.rowResultB:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.pager_button{
+    display: inline-block;
+}

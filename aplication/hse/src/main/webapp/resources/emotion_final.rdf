@@ -1,0 +1,1514 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:hse="https://github.com/blacktiago/HSE/ontology/hse.owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:j.0="http://xmlns.com/foaf/spec/#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <hse:cc_at_seconds>22.609</hse:cc_at_seconds>
+    <hse:cc_at>0:22</hse:cc_at>
+    <hse:text>know one thing I hate about Twitter's go of their endless shit</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <hse:show_a rdf:nodeID="A2"/>
+    <rdfs:label>escene_4</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>2:13</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <hse:frame_at>7:53</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_5</rdfs:label>
+    <hse:show_a rdf:nodeID="A4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <hse:cc_at_seconds>15.389</hse:cc_at_seconds>
+    <hse:cc_at>0:15</hse:cc_at>
+    <hse:text>and some of the best buy</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#despair">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <hse:cc_at_seconds>21.95</hse:cc_at_seconds>
+    <hse:cc_at>0:21</hse:cc_at>
+    <hse:text>but in general I think that more guys forget girls birthdays anniversaries in</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>about how to overcome anxiety, because these solutions have been proven to work time and</hse:text>
+    <hse:cc_at>1:11</hse:cc_at>
+    <hse:cc_at_seconds>71.05</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>And today, I'm going to share this information with you.</hse:text>
+    <hse:cc_at>0:58</hse:cc_at>
+    <hse:cc_at_seconds>58.08</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <hse:cc_at_seconds>31.929</hse:cc_at_seconds>
+    <hse:cc_at>0:31</hse:cc_at>
+    <hse:text>unless they did</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#hate"/>
+    <j.0:name>Liz Green</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#sadness">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>anxiety?</hse:text>
+    <hse:cc_at>0:31</hse:cc_at>
+    <hse:cc_at_seconds>31.169</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#show_a">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#image"/>
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#frame"/>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <hse:cc_at_seconds>0.19</hse:cc_at_seconds>
+    <hse:cc_at>0:00</hse:cc_at>
+    <hse:text>howitzers in this week o-pee-chee of a skank</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <hse:cc_at_seconds>6.779</hse:cc_at_seconds>
+    <hse:cc_at>0:06</hse:cc_at>
+    <hse:text>uh... wonderful people they the court</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#o4NaBrFkiDo">
+    <hse:cc rdf:nodeID="A14"/>
+    <hse:cc rdf:nodeID="A15"/>
+    <hse:cc rdf:nodeID="A16"/>
+    <hse:url>http://www.youtube.com/watch?v=o4NaBrFkiDo</hse:url>
+    <hse:cc rdf:nodeID="A17"/>
+    <hse:cc rdf:nodeID="A18"/>
+    <hse:has_a rdf:nodeID="A3"/>
+    <hse:has_a rdf:nodeID="A19"/>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+    <hse:has_a rdf:nodeID="A20"/>
+    <hse:cc rdf:nodeID="A21"/>
+    <hse:cc rdf:nodeID="A22"/>
+    <hse:cc rdf:nodeID="A23"/>
+    <hse:cc rdf:nodeID="A24"/>
+    <hse:has_a rdf:nodeID="A25"/>
+    <hse:cc rdf:nodeID="A26"/>
+    <hse:has_a rdf:nodeID="A27"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <hse:show_a rdf:nodeID="A29"/>
+    <rdfs:label>escene_1</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>0:35</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>then go ahead and click the link below</hse:text>
+    <hse:cc_at>1:27</hse:cc_at>
+    <hse:cc_at_seconds>87.409</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <hse:cc_at_seconds>18.59</hse:cc_at_seconds>
+    <hse:cc_at>0:18</hse:cc_at>
+    <hse:text>in most occasions not all the time girls can forget to</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <hse:show_a rdf:nodeID="A33"/>
+    <rdfs:label>escene_2</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:43</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#JbVVaUZPcEk">
+    <hse:has_a rdf:nodeID="A34"/>
+    <hse:cc rdf:nodeID="A35"/>
+    <hse:cc rdf:nodeID="A36"/>
+    <hse:cc rdf:nodeID="A37"/>
+    <hse:cc rdf:nodeID="A38"/>
+    <hse:has_a rdf:nodeID="A39"/>
+    <hse:has_a rdf:nodeID="A40"/>
+    <hse:has_a rdf:nodeID="A41"/>
+    <hse:cc rdf:nodeID="A42"/>
+    <hse:cc rdf:nodeID="A43"/>
+    <hse:cc rdf:nodeID="A44"/>
+    <hse:url>http://www.youtube.com/watch?v=JbVVaUZPcEk</hse:url>
+    <hse:has_a rdf:nodeID="A45"/>
+    <hse:cc rdf:nodeID="A31"/>
+    <hse:cc rdf:nodeID="A46"/>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+    <hse:cc rdf:nodeID="A6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A47">
+    <hse:cc_at_seconds>34.649</hse:cc_at_seconds>
+    <hse:cc_at>0:34</hse:cc_at>
+    <hse:text>its its</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A48">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Sarah</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#concern"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#loathing">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>loathing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A49">
+    <hse:cc_at_seconds>33.3</hse:cc_at_seconds>
+    <hse:cc_at>0:33</hse:cc_at>
+    <hse:text>last edit was saying</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#hate"/>
+    <j.0:name>Alex Ernst</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A50">
+    <hse:show_a rdf:nodeID="A51"/>
+    <rdfs:label>escene_2</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:41</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A52">
+    <hse:cc_at_seconds>33.18</hse:cc_at_seconds>
+    <hse:cc_at>0:33</hse:cc_at>
+    <hse:text>message from a every single day but is it</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <hse:cc_at_seconds>17.45</hse:cc_at_seconds>
+    <hse:cc_at>0:17</hse:cc_at>
+    <hse:text>forgetful than girls</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A53">
+    <hse:cc_at_seconds>36.239</hse:cc_at_seconds>
+    <hse:cc_at>0:36</hse:cc_at>
+    <hse:text>a lot horoscope many more for pics guess where the hell</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#thoughtful">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A54">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>Do you suffer from negative thoughts and worry to the point where your feeling obsessed?</hse:text>
+    <hse:cc_at>0:05</hse:cc_at>
+    <hse:cc_at_seconds>5.35</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A55">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>So again, go ahead, click the link below and begin to shatter anxiety from your life once</hse:text>
+    <hse:cc_at>1:43</hse:cc_at>
+    <hse:cc_at_seconds>103.71</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A56">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>anxiety for good...</hse:text>
+    <hse:cc_at>0:56</hse:cc_at>
+    <hse:cc_at_seconds>56.7</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#cc_at">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#caption"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#video"/>
+    <rdfs:range rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#caption"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A57">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>it evident in having beat and</hse:text>
+    <hse:cc_at>0:20</hse:cc_at>
+    <hse:cc_at_seconds>20.85</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A58">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>You're going to finally discover the simple steps that you can use to abolish anxiety</hse:text>
+    <hse:cc_at>1:36</hse:cc_at>
+    <hse:cc_at_seconds>96.39</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anxiety"/>
+    <j.0:name>Liz Green</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A59">
+    <hse:cc_at_seconds>18.74</hse:cc_at_seconds>
+    <hse:cc_at>0:18</hse:cc_at>
+    <hse:text>I just cannot stand and this is all things but I hate about Twitter's</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A60">
+    <hse:cc_at_seconds>24.939</hse:cc_at_seconds>
+    <hse:cc_at>0:24</hse:cc_at>
+    <hse:text>at this writing</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#mediaResource">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A61">
+    <hse:cc_at_seconds>32.649</hse:cc_at_seconds>
+    <hse:cc_at>0:32</hse:cc_at>
+    <hse:text>media to allow me to compel really say</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A62">
+    <hse:show_a rdf:nodeID="A63"/>
+    <rdfs:label>escene_5</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:37</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#loathing"/>
+    <j.0:name>Jocelyn Medina</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <hse:cc_at_seconds>13.799</hse:cc_at_seconds>
+    <hse:cc_at>0:13</hse:cc_at>
+    <hse:text>and this one can go both ways but you guys have to admit that you're more</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <hse:cc_at_seconds>20.639</hse:cc_at_seconds>
+    <hse:cc_at>0:20</hse:cc_at>
+    <hse:text>because if you do it</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#2beKgGHvdiw">
+    <hse:cc rdf:nodeID="A9"/>
+    <hse:has_a rdf:nodeID="A66"/>
+    <hse:cc rdf:nodeID="A60"/>
+    <hse:cc rdf:nodeID="A67"/>
+    <hse:cc rdf:nodeID="A5"/>
+    <hse:cc rdf:nodeID="A49"/>
+    <hse:has_a rdf:nodeID="A68"/>
+    <hse:cc rdf:nodeID="A13"/>
+    <hse:cc rdf:nodeID="A69"/>
+    <hse:has_a rdf:nodeID="A70"/>
+    <hse:url>http://www.youtube.com/watch?v=2beKgGHvdiw</hse:url>
+    <hse:cc rdf:nodeID="A71"/>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+    <hse:cc rdf:nodeID="A72"/>
+    <hse:cc rdf:nodeID="A65"/>
+    <hse:has_a rdf:nodeID="A73"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A74">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Kathe</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#contempt"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A75">
+    <hse:cc_at_seconds>38.879</hse:cc_at_seconds>
+    <hse:cc_at>0:38</hse:cc_at>
+    <hse:text>efforts here we go watch</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A76">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Ben Scott</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#concern"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A77">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Jonathan Grummer</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anxiety"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A78">
+    <hse:frame_at>3:06</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_3</rdfs:label>
+    <hse:show_a rdf:nodeID="A77"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#MOenBh5j7VQ">
+    <hse:has_a rdf:nodeID="A79"/>
+    <hse:has_a rdf:nodeID="A80"/>
+    <hse:has_a rdf:nodeID="A81"/>
+    <hse:has_a rdf:nodeID="A82"/>
+    <hse:url>http://www.youtube.com/watch?v=MOenBh5j7VQ</hse:url>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#lie">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A83">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>I've personally suffered from anxiety and panic attacks for years...</hse:text>
+    <hse:cc_at>0:39</hse:cc_at>
+    <hse:cc_at_seconds>39.62</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A84">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>he's gonna be there for you and give you 110 percent they don't think she's</hse:text>
+    <hse:cc_at>0:32</hse:cc_at>
+    <hse:cc_at_seconds>32.27</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <hse:frame_at>2:02</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_1</rdfs:label>
+    <hse:show_a rdf:nodeID="A85"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#url">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#video"/>
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#image"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A82">
+    <hse:frame_at>0:01</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_1</rdfs:label>
+    <hse:show_a rdf:nodeID="A74"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A86">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>and you'll begin receiving your daily techniques on how to overcome anxiety, immediately</hse:text>
+    <hse:cc_at>1:30</hse:cc_at>
+    <hse:cc_at_seconds>90.5</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#happiness">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#fury">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>fury</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A87">
+    <hse:cc_at_seconds>19.49</hse:cc_at_seconds>
+    <hse:cc_at>0:19</hse:cc_at>
+    <hse:text>Fink first</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Emotions of human stres HSE is a project to create an ontology that contains images of human faces obtained from youtube videos or image files to generate agents or applications that can react basing on an emotion and context</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A51">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#fury"/>
+    <j.0:name>Brad</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>0</hse:text>
+    <hse:cc_at>0:16</hse:cc_at>
+    <hse:cc_at_seconds>16.66</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#8sjGNu03ie8">
+    <hse:cc rdf:nodeID="A88"/>
+    <hse:cc rdf:nodeID="A89"/>
+    <hse:cc rdf:nodeID="A90"/>
+    <hse:cc rdf:nodeID="A84"/>
+    <hse:cc rdf:nodeID="A91"/>
+    <hse:url>http://www.youtube.com/watch?v=8sjGNu03ie8</hse:url>
+    <hse:has_a rdf:nodeID="A92"/>
+    <hse:cc rdf:nodeID="A93"/>
+    <hse:has_a rdf:nodeID="A94"/>
+    <hse:cc rdf:nodeID="A95"/>
+    <hse:cc rdf:nodeID="A57"/>
+    <hse:cc rdf:nodeID="A96"/>
+    <hse:has_a rdf:nodeID="A97"/>
+    <hse:cc rdf:nodeID="A98"/>
+    <hse:has_a rdf:nodeID="A99"/>
+    <hse:has_a rdf:nodeID="A100"/>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#contempt">
+    <rdfs:label>contempt</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#resetment">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#wrath">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>guys</hse:text>
+    <hse:cc_at>0:12</hse:cc_at>
+    <hse:cc_at_seconds>12.73</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A101">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#joy"/>
+    <j.0:name>Brad</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#object">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#belongs_to">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#object"/>
+    <rdfs:range rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#context"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A44">
+    <hse:cc_at_seconds>27.06</hse:cc_at_seconds>
+    <hse:cc_at>0:27</hse:cc_at>
+    <hse:text>bring this out with your friends and then getting drunk and enormous all</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#joy">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>joy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A102">
+    <hse:cc_at_seconds>27.36</hse:cc_at_seconds>
+    <hse:cc_at>0:27</hse:cc_at>
+    <hse:text>angry Turk acts</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A103">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>If you answered yes to any of the above, then let me tell you that I know exactly how you</hse:text>
+    <hse:cc_at>0:34</hse:cc_at>
+    <hse:cc_at_seconds>34.14</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <hse:frame_at>3:36</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_3</rdfs:label>
+    <hse:show_a rdf:nodeID="A104"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <hse:show_a rdf:nodeID="A105"/>
+    <rdfs:label>escene_4</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:58</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <hse:cc_at_seconds>9.82</hse:cc_at_seconds>
+    <hse:cc_at>0:09</hse:cc_at>
+    <hse:text>the first thing is forgetting important dates birthdays anniversaries</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <hse:cc_at_seconds>26.12</hse:cc_at_seconds>
+    <hse:cc_at>0:26</hse:cc_at>
+    <hse:text>the other way around</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#unconformity">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#context">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A106">
+    <hse:show_a rdf:nodeID="A107"/>
+    <rdfs:label>escene_1</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:06</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#surprised">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A46">
+    <hse:cc_at_seconds>7.499</hse:cc_at_seconds>
+    <hse:cc_at>0:07</hse:cc_at>
+    <hse:text>that most guys do so let's get into it</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#0M1HMvw7OCE">
+    <hse:has_a rdf:nodeID="A78"/>
+    <hse:has_a rdf:nodeID="A108"/>
+    <hse:url>http://www.youtube.com/watch?v=0M1HMvw7OCE</hse:url>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#concern">
+    <rdfs:label>concern</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A109">
+    <hse:cc_at_seconds>24.05</hse:cc_at_seconds>
+    <hse:cc_at>0:24</hse:cc_at>
+    <hse:text>Shrike I think it's</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A110">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>Do you often feel pressure in your chest and throat, making you feel as though you can't</hse:text>
+    <hse:cc_at>0:09</hse:cc_at>
+    <hse:cc_at_seconds>9.7</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#fear">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <hse:cc_at_seconds>3.909</hse:cc_at_seconds>
+    <hse:cc_at>0:03</hse:cc_at>
+    <hse:text>it's a list that I have compiled but two different things that most girls hate</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>cry huge</hse:text>
+    <hse:cc_at>0:01</hse:cc_at>
+    <hse:cc_at_seconds>1.49</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#frustrated">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A111">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+    <j.0:name>Alex Ernst</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#euphoria">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A91">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>them dentist tread lightly</hse:text>
+    <hse:cc_at>0:03</hse:cc_at>
+    <hse:cc_at_seconds>3.11</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A112">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>time again.</hse:text>
+    <hse:cc_at>1:11</hse:cc_at>
+    <hse:cc_at_seconds>71.43</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A113">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Kathe</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#contempt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#has_a">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#video"/>
+    <rdfs:range rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#frame"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A114">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#hate"/>
+    <j.0:name>Alex Ernst</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#bitterness">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A115">
+    <hse:show_a rdf:nodeID="A116"/>
+    <rdfs:label>escene_3</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>2:34</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A117">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+    <j.0:name>Liz Green</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#nervous">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#image">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#mediaResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#frame">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#image"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A68">
+    <hse:show_a rdf:nodeID="A64"/>
+    <rdfs:label>escene_1</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:10</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#time">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#wlYG1LQsHs4">
+    <hse:cc rdf:nodeID="A11"/>
+    <hse:cc rdf:nodeID="A118"/>
+    <hse:cc rdf:nodeID="A110"/>
+    <hse:cc rdf:nodeID="A119"/>
+    <hse:cc rdf:nodeID="A120"/>
+    <hse:cc rdf:nodeID="A121"/>
+    <hse:cc rdf:nodeID="A122"/>
+    <hse:cc rdf:nodeID="A123"/>
+    <hse:cc rdf:nodeID="A54"/>
+    <hse:cc rdf:nodeID="A112"/>
+    <hse:cc rdf:nodeID="A8"/>
+    <hse:cc rdf:nodeID="A124"/>
+    <hse:cc rdf:nodeID="A125"/>
+    <hse:url>http://www.youtube.com/watch?v=wlYG1LQsHs4</hse:url>
+    <hse:cc rdf:nodeID="A30"/>
+    <hse:cc rdf:nodeID="A126"/>
+    <hse:cc rdf:nodeID="A127"/>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+    <hse:cc rdf:nodeID="A128"/>
+    <hse:cc rdf:nodeID="A129"/>
+    <hse:cc rdf:nodeID="A130"/>
+    <hse:cc rdf:nodeID="A131"/>
+    <hse:cc rdf:nodeID="A83"/>
+    <hse:has_a rdf:nodeID="A132"/>
+    <hse:cc rdf:nodeID="A58"/>
+    <hse:cc rdf:nodeID="A133"/>
+    <hse:cc rdf:nodeID="A134"/>
+    <hse:cc rdf:nodeID="A135"/>
+    <hse:cc rdf:nodeID="A136"/>
+    <hse:cc rdf:nodeID="A137"/>
+    <hse:cc rdf:nodeID="A103"/>
+    <hse:cc rdf:nodeID="A86"/>
+    <hse:cc rdf:nodeID="A55"/>
+    <hse:cc rdf:nodeID="A7"/>
+    <hse:cc rdf:nodeID="A56"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>action</hse:text>
+    <hse:cc_at>0:03</hse:cc_at>
+    <hse:cc_at_seconds>3.889</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A85">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>AngryJoe</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#restless">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A138">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>AngryJoe</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A92">
+    <hse:frame_at>0:05</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_1</rdfs:label>
+    <hse:show_a rdf:nodeID="A139"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A121">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>Today I want to talk to you about anxiety, and how you can finally discover how to overcome</hse:text>
+    <hse:cc_at>0:00</hse:cc_at>
+    <hse:cc_at_seconds>0.719</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A122">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>from your life TODAY.</hse:text>
+    <hse:cc_at>1:41</hse:cc_at>
+    <hse:cc_at_seconds>101.909</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <hse:cc_at_seconds>0.48</hse:cc_at_seconds>
+    <hse:cc_at>0:00</hse:cc_at>
+    <hse:text>cases ray and im talking about things that girls hate about guys</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <hse:frame_at>2:03</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_2</rdfs:label>
+    <hse:show_a rdf:nodeID="A140"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#l3C-MEiCs9M">
+    <hse:cc rdf:nodeID="A59"/>
+    <hse:cc rdf:nodeID="A141"/>
+    <hse:has_a rdf:nodeID="A142"/>
+    <hse:cc rdf:nodeID="A0"/>
+    <hse:has_a rdf:nodeID="A28"/>
+    <hse:cc rdf:nodeID="A52"/>
+    <hse:cc rdf:nodeID="A12"/>
+    <hse:cc rdf:nodeID="A143"/>
+    <hse:has_a rdf:nodeID="A144"/>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+    <hse:has_a rdf:nodeID="A145"/>
+    <hse:cc rdf:nodeID="A53"/>
+    <hse:has_a rdf:nodeID="A62"/>
+    <hse:has_a rdf:nodeID="A146"/>
+    <hse:has_a rdf:nodeID="A147"/>
+    <hse:cc rdf:nodeID="A148"/>
+    <hse:cc rdf:nodeID="A149"/>
+    <hse:cc rdf:nodeID="A150"/>
+    <hse:url>http://www.youtube.com/watch?v=l3C-MEiCs9M</hse:url>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A151">
+    <hse:show_a rdf:nodeID="A101"/>
+    <rdfs:label>escene_4</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>3:45</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A93">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>I can't say that answer I want you to be happy in a liar and I what you end up</hse:text>
+    <hse:cc_at>0:24</hse:cc_at>
+    <hse:cc_at_seconds>24.4</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#tired">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A152">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#hate"/>
+    <j.0:name>Alex Ernst</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A153">
+    <hse:cc_at_seconds>14.559</hse:cc_at_seconds>
+    <hse:cc_at>0:14</hse:cc_at>
+    <hse:text>sketch like huh few</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A79">
+    <hse:frame_at>3:22</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_4</rdfs:label>
+    <hse:show_a rdf:nodeID="A113"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A71">
+    <hse:cc_at_seconds>17.68</hse:cc_at_seconds>
+    <hse:cc_at>0:17</hse:cc_at>
+    <hse:text>to cat</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A116">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#fury"/>
+    <j.0:name>Brad</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A154">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#loathing"/>
+    <j.0:name>Jocelyn Medina</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>AngryJoe</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A155">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Belle</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#concern"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#frame_at">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#frame"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A89">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>that until now loading evers</hse:text>
+    <hse:cc_at>0:06</hse:cc_at>
+    <hse:cc_at_seconds>6.58</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A156">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#loathing"/>
+    <j.0:name>Jocelyn Medina</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <hse:frame_at>3:40</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_4</rdfs:label>
+    <hse:show_a rdf:nodeID="A138"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A104">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>AngryJoe</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <hse:frame_at>1:58</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_4</rdfs:label>
+    <hse:show_a rdf:nodeID="A157"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A158">
+    <hse:cc_at_seconds>21.97</hse:cc_at_seconds>
+    <hse:cc_at>0:21</hse:cc_at>
+    <hse:text>CNN it now past present future hazard a guess on Dec</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#compassion">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#registered_by">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A94">
+    <hse:frame_at>0:07</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_2</rdfs:label>
+    <hse:show_a rdf:nodeID="A155"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A159">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Kathe</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#loathing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A73">
+    <hse:show_a rdf:nodeID="A154"/>
+    <rdfs:label>escene_3</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>3:04</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A160">
+    <hse:cc_at_seconds>26.05</hse:cc_at_seconds>
+    <hse:cc_at>0:26</hse:cc_at>
+    <hse:text>and when we hold and get and can create</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A161">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+    <j.0:name>Liz Green</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#confusion">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A147">
+    <hse:show_a rdf:nodeID="A152"/>
+    <rdfs:label>escene_4</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:20</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A162">
+    <hse:cc_at_seconds>10.219</hse:cc_at_seconds>
+    <hse:cc_at>0:10</hse:cc_at>
+    <hse:text>K I'm using E ft technique which is the emotional Freedom Technique</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A142">
+    <hse:show_a rdf:nodeID="A114"/>
+    <rdfs:label>escene_3</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:12</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A130">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>But first, I've got some questions for you...</hse:text>
+    <hse:cc_at>0:03</hse:cc_at>
+    <hse:cc_at_seconds>3.36</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A90">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>when somebody who really cares about somebody I feel that</hse:text>
+    <hse:cc_at>0:16</hse:cc_at>
+    <hse:cc_at_seconds>16.859</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A145">
+    <hse:show_a rdf:nodeID="A111"/>
+    <rdfs:label>escene_2</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:11</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A140">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>AngryJoe</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A163">
+    <hse:show_a rdf:nodeID="A10"/>
+    <rdfs:label>escene_5</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>2:49</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>selects</hse:text>
+    <hse:cc_at>0:23</hse:cc_at>
+    <hse:cc_at_seconds>23.48</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A164">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Raya</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#loathing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A143">
+    <hse:cc_at_seconds>11.16</hse:cc_at_seconds>
+    <hse:cc_at>0:11</hse:cc_at>
+    <hse:text>why I hate blank week and eyesight know what</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <hse:frame_at>1:24</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_3</rdfs:label>
+    <hse:show_a rdf:nodeID="A164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#shows">
+    <rdfs:range rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A165">
+    <hse:cc_at_seconds>6.41</hse:cc_at_seconds>
+    <hse:cc_at>0:06</hse:cc_at>
+    <hse:text>fair</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A126">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>My name's AJ, and over the past 5 years, through a long process of trial, and error.</hse:text>
+    <hse:cc_at>0:44</hse:cc_at>
+    <hse:cc_at_seconds>44.63</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A141">
+    <hse:cc_at_seconds>26.33</hse:cc_at_seconds>
+    <hse:cc_at>0:26</hse:cc_at>
+    <hse:text>they have a horse cock posted on their feet</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A100">
+    <hse:frame_at>0:39</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_5</rdfs:label>
+    <hse:show_a rdf:nodeID="A48"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A166">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#hate"/>
+    <j.0:name>Alex Ernst</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A81">
+    <hse:frame_at>0:07</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_2</rdfs:label>
+    <hse:show_a rdf:nodeID="A159"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A63">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#hate"/>
+    <j.0:name>Alex Ernst</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#anger">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>anger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A149">
+    <hse:cc_at_seconds>29.51</hse:cc_at_seconds>
+    <hse:cc_at>0:29</hse:cc_at>
+    <hse:text>every single day I'll go I'm the only one that gets us horse go</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#W9PbszcCxx8">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+    <hse:has_a rdf:nodeID="A50"/>
+    <hse:cc rdf:nodeID="A109"/>
+    <hse:has_a rdf:nodeID="A106"/>
+    <hse:cc rdf:nodeID="A165"/>
+    <hse:has_a rdf:nodeID="A115"/>
+    <hse:cc rdf:nodeID="A87"/>
+    <hse:cc rdf:nodeID="A102"/>
+    <hse:cc rdf:nodeID="A47"/>
+    <hse:cc rdf:nodeID="A75"/>
+    <hse:cc rdf:nodeID="A167"/>
+    <hse:cc rdf:nodeID="A168"/>
+    <hse:cc rdf:nodeID="A169"/>
+    <hse:cc rdf:nodeID="A153"/>
+    <hse:has_a rdf:nodeID="A151"/>
+    <hse:url>http://www.youtube.com/watch?v=W9PbszcCxx8</hse:url>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <hse:frame_at>0:37</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_2</rdfs:label>
+    <hse:show_a rdf:nodeID="A170"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A137">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>breathe?</hse:text>
+    <hse:cc_at>0:14</hse:cc_at>
+    <hse:cc_at_seconds>14.98</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A171">
+    <hse:cc_at_seconds>6.92</hse:cc_at_seconds>
+    <hse:cc_at>0:06</hse:cc_at>
+    <hse:text>up and say environment living environment</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#tranquility">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A148">
+    <hse:cc_at_seconds>3.679</hse:cc_at_seconds>
+    <hse:cc_at>0:03</hse:cc_at>
+    <hse:text>bitch</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#object"/>
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#shy">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A125">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>I've discovered simple, completely natural techniques for eliminating panic attacks and</hse:text>
+    <hse:cc_at>0:49</hse:cc_at>
+    <hse:cc_at_seconds>49.95</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A119">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>The techniques I've developed and practiced over the years are highly effective and potently</hse:text>
+    <hse:cc_at>1:01</hse:cc_at>
+    <hse:cc_at_seconds>61.78</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A169">
+    <hse:cc_at_seconds>8.05</hse:cc_at_seconds>
+    <hse:cc_at>0:08</hse:cc_at>
+    <hse:text>sure first</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A150">
+    <hse:cc_at_seconds>14.429</hse:cc_at_seconds>
+    <hse:cc_at>0:14</hse:cc_at>
+    <hse:text>0 Twitter everything but there are some things on Twitter</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A167">
+    <hse:cc_at_seconds>11.219</hse:cc_at_seconds>
+    <hse:cc_at>0:11</hse:cc_at>
+    <hse:text>squad its request</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>face</hse:text>
+    <hse:cc_at>0:09</hse:cc_at>
+    <hse:cc_at_seconds>9.6</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A172">
+    <hse:cc_at_seconds>15.11</hse:cc_at_seconds>
+    <hse:cc_at>0:15</hse:cc_at>
+    <hse:text>top along with me karate chop point stoutly</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#embarrassed">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#cc_text">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#caption"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A139">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Ben Scott</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#concern"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <hse:frame_at>0:27</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_1</rdfs:label>
+    <hse:show_a rdf:nodeID="A173"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A69">
+    <hse:cc_at_seconds>13.169</hse:cc_at_seconds>
+    <hse:cc_at>0:13</hse:cc_at>
+    <hse:text>stranded</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A118">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>Well take a deep breath and relax.</hse:text>
+    <hse:cc_at>0:31</hse:cc_at>
+    <hse:cc_at_seconds>31.769</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A173">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Raya</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#loathing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A174">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Jonathan Grummer</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anxiety"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#cheeky">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A95">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>we want you to be cautious about burning</hse:text>
+    <hse:cc_at>0:01</hse:cc_at>
+    <hse:cc_at_seconds>1.54</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A175">
+    <hse:show_a rdf:nodeID="A161"/>
+    <rdfs:label>escene_3</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>2:06</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A127">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>stop feeling obsessed with negative thoughts controlling your every move in your life</hse:text>
+    <hse:cc_at>1:22</hse:cc_at>
+    <hse:cc_at_seconds>82.61</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A107">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+    <j.0:name>Brad</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A120">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>feel</hse:text>
+    <hse:cc_at>0:39</hse:cc_at>
+    <hse:cc_at_seconds>39.29</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>five minutes I more than enough yeah</hse:text>
+    <hse:cc_at>0:27</hse:cc_at>
+    <hse:cc_at_seconds>27.13</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A134">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>and for all.</hse:text>
+    <hse:cc_at>1:49</hse:cc_at>
+    <hse:cc_at_seconds>109.799</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A129">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>powerful in relieving the crushing effects of anxiety... You'll no longer be wondering</hse:text>
+    <hse:cc_at>1:07</hse:cc_at>
+    <hse:cc_at_seconds>67.49</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#video">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#mediaResource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A98">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>your not it now it what comes out of her mouth</hse:text>
+    <hse:cc_at>0:12</hse:cc_at>
+    <hse:cc_at_seconds>12.92</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A176">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Kathe</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#joy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A105">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#contempt"/>
+    <j.0:name>Raya</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A108">
+    <hse:frame_at>0:11</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_1</rdfs:label>
+    <hse:show_a rdf:nodeID="A174"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A177">
+    <hse:cc_at_seconds>29.279</hse:cc_at_seconds>
+    <hse:cc_at>0:29</hse:cc_at>
+    <hse:text>taste ease parties so this is in Palm</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A128">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>Have you ever misdiagnosed your anxiety for all sorts of different diseases and ailments?</hse:text>
+    <hse:cc_at>0:15</hse:cc_at>
+    <hse:cc_at_seconds>15.24</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#caption">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A178">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#concern"/>
+    <j.0:name>Jocelyn Medina</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A124">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>If you're sick and tired of panicking with anxiety, and you want to finally stop worrying</hse:text>
+    <hse:cc_at>1:17</hse:cc_at>
+    <hse:cc_at_seconds>77.77</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A135">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>These are simple, easy to implement techniques that you can take away today, use them right</hse:text>
+    <hse:cc_at>1:11</hse:cc_at>
+    <hse:cc_at_seconds>71.48</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A133">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>anxiety, once and for all...</hse:text>
+    <hse:cc_at>0:03</hse:cc_at>
+    <hse:cc_at_seconds>3.16</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anger"/>
+    <j.0:name>Liz Green</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A179">
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#hate"/>
+    <j.0:name>Alex Ernst</j.0:name>
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>pledge</hse:text>
+    <hse:cc_at>0:31</hse:cc_at>
+    <hse:cc_at_seconds>31.14</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#cc_at_seconds">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#caption"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#DN1fafiocjI">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#video</rdf:type>
+    <hse:has_a rdf:nodeID="A180"/>
+    <hse:cc rdf:nodeID="A177"/>
+    <hse:cc rdf:nodeID="A181"/>
+    <hse:cc rdf:nodeID="A182"/>
+    <hse:cc rdf:nodeID="A183"/>
+    <hse:cc rdf:nodeID="A160"/>
+    <hse:cc rdf:nodeID="A158"/>
+    <hse:has_a rdf:nodeID="A1"/>
+    <hse:has_a rdf:nodeID="A163"/>
+    <hse:cc rdf:nodeID="A61"/>
+    <hse:has_a rdf:nodeID="A175"/>
+    <hse:cc rdf:nodeID="A162"/>
+    <hse:cc rdf:nodeID="A172"/>
+    <hse:cc rdf:nodeID="A171"/>
+    <hse:url>http://www.youtube.com/watch?v=DN1fafiocjI</hse:url>
+    <hse:has_a rdf:nodeID="A32"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A132">
+    <hse:frame_at>0:13</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_1</rdfs:label>
+    <hse:show_a rdf:nodeID="A184"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A168">
+    <hse:cc_at_seconds>30.69</hse:cc_at_seconds>
+    <hse:cc_at>0:30</hse:cc_at>
+    <hse:text>sucks detritus fax</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#anxiety">
+    <rdfs:label>anxiety</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#hate">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>hate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A97">
+    <hse:frame_at>0:17</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_3</rdfs:label>
+    <hse:show_a rdf:nodeID="A76"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A66">
+    <hse:show_a rdf:nodeID="A178"/>
+    <rdfs:label>escene_2</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:49</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A123">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>Are you simply frustrated and looking for an answer to finally learn how to overcome</hse:text>
+    <hse:cc_at>0:25</hse:cc_at>
+    <hse:cc_at_seconds>25.609</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A144">
+    <hse:show_a rdf:nodeID="A166"/>
+    <rdfs:label>escene_6</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>2:17</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A170">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Raya</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#contempt"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A80">
+    <hse:frame_at>3:16</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_3</rdfs:label>
+    <hse:show_a rdf:nodeID="A176"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>a single</hse:text>
+    <hse:cc_at>0:22</hse:cc_at>
+    <hse:cc_at_seconds>22.76</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#exitation">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A131">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>away and see immediate results.</hse:text>
+    <hse:cc_at>1:15</hse:cc_at>
+    <hse:cc_at_seconds>75.52</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A96">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>there was a little beef between Emily and Courtney</hse:text>
+    <hse:cc_at>0:09</hse:cc_at>
+    <hse:cc_at_seconds>9.78</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A67">
+    <hse:cc_at_seconds>19.38</hse:cc_at_seconds>
+    <hse:cc_at>0:19</hse:cc_at>
+    <hse:text>bioethics</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A136">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>Is anxiety controlling you, and stopping you from living a relaxed and worry-free life?</hse:text>
+    <hse:cc_at>0:20</hse:cc_at>
+    <hse:cc_at_seconds>20.06</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#stressEmotion">
+    <rdfs:subClassOf rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A88">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>with somebody</hse:text>
+    <hse:cc_at>0:31</hse:cc_at>
+    <hse:cc_at_seconds>31.58</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+    <hse:text>go</hse:text>
+    <hse:cc_at>0:17</hse:cc_at>
+    <hse:cc_at_seconds>17.78</hse:cc_at_seconds>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A182">
+    <hse:cc_at_seconds>18.26</hse:cc_at_seconds>
+    <hse:cc_at>0:18</hse:cc_at>
+    <hse:text>gonna suck some and get with all fell set</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A181">
+    <hse:cc_at_seconds>1.28</hse:cc_at_seconds>
+    <hse:cc_at>0:01</hse:cc_at>
+    <hse:text>base isn't he FTTN</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A184">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>AJ</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#anxiety"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/blacktiago/HSE/ontology/hse.owl#description">
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#video"/>
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#object"/>
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#image"/>
+    <rdfs:domain rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#humanEmotion"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A183">
+    <hse:cc_at_seconds>3.139</hse:cc_at_seconds>
+    <hse:cc_at>0:03</hse:cc_at>
+    <hse:text>to allow you to allow and get to come</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A99">
+    <hse:frame_at>0:22</hse:frame_at>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <rdfs:label>escene_4</rdfs:label>
+    <hse:show_a rdf:nodeID="A185"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A146">
+    <hse:show_a rdf:nodeID="A179"/>
+    <rdfs:label>escene_3</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:12</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A185">
+    <rdf:type>http://xmlns.com/foaf/spec/#Person</rdf:type>
+    <j.0:name>Ben Scott</j.0:name>
+    <hse:shows rdf:resource="https://github.com/blacktiago/HSE/ontology/hse.owl#concern"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A70">
+    <hse:show_a rdf:nodeID="A156"/>
+    <rdfs:label>escene_4</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>3:14</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A180">
+    <hse:show_a rdf:nodeID="A117"/>
+    <rdfs:label>escene_1</rdfs:label>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#frame</rdf:type>
+    <hse:frame_at>1:36</hse:frame_at>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A72">
+    <hse:cc_at_seconds>27.179</hse:cc_at_seconds>
+    <hse:cc_at>0:27</hse:cc_at>
+    <hse:text>any pull-down mere an alleged twenty thousand</hse:text>
+    <rdf:type>https://github.com/blacktiago/HSE/ontology/hse.owl#caption</rdf:type>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script> 
+        <script type="text/javascript" src="js/emotion.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/default.css"/>
+        <title>Human Emotions on YouTube Videos</title>
+    </h:head>
+    <h:body>        
+        <div id="infoBox" style="display:#{crudRequest.visiblePupUp};" > 
+            <div id="mesaggeInfoPanel" class="panel" style="display: #{crudRequest.visibleUiMessage}; width: 20%">
+                <img src="img/light.png" style="width: 2em; display: inline-block"/>
+                <div style="width: 3em; display: inline-block;">
+                    <h2>Info</h2>
+                </div>
+                <p>#{crudRequest.uiMessage}</p>
+                <div style="display: #{crudRequest.visibleUiConfirm}">
+                    <button onclick="cancelActionJS('#{crudRequest.actionMode}');" class="blackButton">OK!</button>
+                </div>
+                <div  style="display: #{crudRequest.visibleUiAction}">
+                    <button onclick="cancelActionJS('#{crudRequest.actionMode}');" class="blackButton">Cancel</button>
+                    <button onclick="closeMessage('#{crudRequest.actionMode}');" class="blackButton">Back</button>
+                </div>
+                <div  style="display: #{crudRequest.visibleUiDeleted}">
+                    <button onclick="applyActionJS();" class="blackButton">Proceed</button>
+                    <button onclick="cancelActionJS('#{crudRequest.actionMode}');" class="blackButton">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <header>
+            <h1>Human Emotions on YouTube Videos</h1>
+        </header>
+        <div id="wokspace">
+            <div id="searcher" class="panel" onclick="onYouTubePlayerReady()">
+                <h2>Video Register</h2>
+                <br></br>                
+                <div id="ytapiplayer" style="width: 420px; height: 356px; background-color: black; display: inline-block; margin: 1em" >
+                </div> 
+                <input id="correntVideo" type="hidden" value="#{userStressSession.currentVideo}"/>
+                <div style="display: #{crudRequest.ytPanelControls}" id="ytPlayerButtons" >
+                    <button onclick="captureEscene()">Capture</button>   
+
+                </div>
+            </div>
+            <div id="resultPanel" class="panel" >
+                <h2>Instance Editor</h2> 
+                <h:form id="formEditor">
+                    <div id="currentVidUrl" >
+                        <h3>Url:</h3>
+                        <h:inputText  value="#{crudRequest.currentVideoRow.url}" disabled="#{crudRequest.videoFieldState}" />
+
+                        <div id="currentVidId">
+                            <h3>Video:</h3>
+                            <h:inputText  value="#{crudRequest.currentVideoRow.videoID}" disabled="#{crudRequest.videoFieldState}"/>
+                        </div>
+                        <h:commandButton value="Load" actionListener="#{crudRequest.capture()}"/>                        
+                    </div>
+                    <div class="headerResult">
+                        <div class="columResultT">
+                            <h4>Options</h4>                  
+                        </div>
+                        <div class="columResultT">
+                            <h4>Scene</h4>                  
+                        </div>
+                        <div class="columResultT">
+                            <h4>Person</h4>                  
+                        </div>
+                        <div class="columResultT">
+                            <h4>Emotion</h4>                  
+                        </div>
+                        <div class="columResultT">
+                            <h4>Time</h4>                  
+                        </div>                    
+                    </div>
+
+                    <div id="scenesPanel" >
+
+                    </div>
+                    <div id="currentVidEmotion" style="display: none">
+                        <h:selectOneMenu  value="#{crudRequest.currentVideoRow.emotion}" disabled="#{crudRequest.fieldEditState}" id ="combo2" >
+                            <f:selectItem itemLabel="Select an emotion..." noSelectionOption="true"/>
+                            <f:selectItems value="#{userStressSession.stressEmotions}" var="emo" itemValue="#{emo}" itemLabel="#{emo}" />
+                            <f:ajax execute="combo2"/>
+                        </h:selectOneMenu>
+                    </div>
+                    <div id="emotionRows" style="display: none">
+                        <h:inputText value="#{crudRequest.emotionRecords}"/>
+                    </div>
+                    <br></br>
+                    <div style="text-align: center">
+                        <div id="crud_options" style="margin-top: 1em;display: #{crudRequest.crudModePnlState};">                        
+                            <h:commandButton value="Cancel" action="#{crudRequest.prepareWebUi('CL')}" class="blackButton"/>
+                        </div>
+                        <div id="action_options" style="display: #{crudRequest.crudActionPnlState} ;margin-top: 1em">
+
+                            <button class="blackButton" onclick="applyRecord(this);
+                            return false;">Apply</button>
+                            <h:commandButton value="Apply" actionListener="#{crudRequest.applyNode()}" class="blackButton" style="display: none" />
+
+                            <h:commandButton value="Cancel" action="#{crudRequest.prepareWebUi('CL')}" class="blackButton"/>
+                        </div>
+                    </div>
+                </h:form>
+            </div>
+
+            <div id="foother" >
+                <h3>Developed by <a href="https://twitter.com/blacktiago" target="blank">@Blacktiago</a></h3>
+            </div>
+        </div>
+
+
+    </h:body>
+
+</html>
